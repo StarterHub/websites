@@ -1,7 +1,5 @@
 # websites
 
-[![CodeFactor](https://www.codefactor.io/repository/github/StarterHub/websites/badge)](https://www.codefactor.io/repository/github/StarterHub/websites)
-
 ## Setup
 
 Make sure to install the dependencies:
