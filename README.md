@@ -1,6 +1,6 @@
 # websites
 
-[![CodeFactor](https://www.codefactor.io/repository/github/kjxbyz/kjxbyz-blog/badge)](https://www.codefactor.io/repository/github/kjxbyz/kjxbyz-blog)
+[![CodeFactor](https://www.codefactor.io/repository/github/StarterHub/websites/badge)](https://www.codefactor.io/repository/github/StarterHub/websites)
 
 ## Setup
 

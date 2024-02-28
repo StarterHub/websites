@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 import { basePath } from "@/constants";
 
 export const runtime = "edge";
-export const alt = "kjxbyz,科技小白英仔";
+export const alt = "StarterHub";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -28,7 +28,7 @@ export default async function OG() {
       >
         <img
           src={`${basePath}/logo.jpg`}
-          alt="kjxbyz Logo"
+          alt="StarterHub Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
@@ -43,7 +43,7 @@ export default async function OG() {
             letterSpacing: "-0.02em",
           }}
         >
-          kjxbyz
+          StarterHub
         </h1>
       </div>
     ),

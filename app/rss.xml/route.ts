@@ -13,7 +13,7 @@ export async function GET() {
     feed_url: `${host}/rss.xml`,
     image_url: `${host}/logo.jpg`,
     pubDate: new Date(),
-    copyright: `All rights reserved ${new Date().getFullYear()}, @kjxbyz`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, @StarterHub`,
   });
 
   const rssPageRegex = RegExp(
