@@ -15,7 +15,11 @@ import { basePath } from "@/constants";
 import { Providers } from "./providers";
 import Particles from "./particles";
 
+// 是否显示背景特效
 const NEXT_PUBLIC_SHOW_PARTICLES = process.env.NEXT_PUBLIC_SHOW_PARTICLES;
+// 是否全站置灰
+const NEXT_PUBLIC_WEBSITE_GLOBAL_GRAY =
+  process.env.NEXT_PUBLIC_WEBSITE_GLOBAL_GRAY;
 
 const Header = dynamic(() => import("@/components/layout/header"), {
   ssr: false,
@@ -50,7 +54,12 @@ export default async function RootLayout({
   };
 }) {
   return (
-    <html lang={params.lng} dir={dir(params.lng)} suppressHydrationWarning>
+    <html
+      lang={params.lng}
+      dir={dir(params.lng)}
+      className={NEXT_PUBLIC_WEBSITE_GLOBAL_GRAY ? "grayscale" : ""}
+      suppressHydrationWarning
+    >
       <body className={cx(sfPro.variable, inter.variable)}>
         <NextTopLoader height={1} />
         <Providers>
