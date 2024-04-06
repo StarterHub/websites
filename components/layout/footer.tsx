@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaRss } from "react-icons/fa";
 import { host } from "@/constants";
-import { LngProps } from "@/i18next-lng";
 import { useTranslation } from "@/i18n/client";
+import type { LngProps } from "@/types/i18next-lng";
 
 export default function Footer(props: LngProps) {
   const { t } = useTranslation(props.lng, "footer");
