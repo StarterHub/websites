@@ -39,7 +39,7 @@
     "rss": "^1.2.2",
     "tailwindcss-animate": "^1.0.7",
     "tsparticles": "^3.5.0",
-    "use-debounce": "^10.0.3"
+    "use-debounce": "^10.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
